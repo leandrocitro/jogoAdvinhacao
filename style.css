@@ -3,6 +3,106 @@
     padding: 0;
 }
 
+:root {
+    font-size: 62.5%;
+}
+
 body {
-    background-color: black;
+    height: 100vh;
+    background-color: #00DDFB;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+body, button, input {
+    font-family: "DM Sans", sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+main {
+    width: 700px;
+    height: 450px;
+
+    display: flex;
+    flex-direction: column;
+
+
+    align-items: center;
+    
+
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+/* Screen1 */
+
+main h1 {
+    font-family: "Montserrat", sans-serif;
+    padding: 80px 20px 10px 20px;
+    font-size: 5.0rem;
+}
+
+main p {
+    padding: 20px 20px 80px 20px;
+    font-size: 2.5rem;
+}
+
+form {
+    display: flex;
+}
+
+input, button {
+    border: none;
+    padding: 1.6rem;
+    
+}
+
+input {
+    background-color: #DCE2E9;
+    width: 5rem;
+    font-size: 30px;
+
+    border-radius: 5px 0 0 5px;
+}
+
+button {
+    background-color: #7879F1;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    font-size: 2rem;
+
+    
+}
+
+/* Screen2 */
+
+.screen2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.screen2 h2 {
+    font-family: "Montserrat", sans-serif;
+    padding: 80px 20px 10px 20px;
+    font-size: 5.0rem;
+    padding-bottom: 5.0rem;
+}
+
+.screen2 button {
+    background-color: #7879F1;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 2rem;
+    font-weight: bold;
 }
